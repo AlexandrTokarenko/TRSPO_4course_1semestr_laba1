@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Результат</title>
+</head>
+<body>
+<div style="text-align: center;padding: 40px;">
+  <h1>Лабораторна робота 1</h1>
+<!--  <form th:action="@{/nedvizhimost/filter/remove}">-->
+<!--    <button type="submit" class="btn btn-success">Прибрати фільтр</button>-->
+<!--  </form>-->
+
+  <h2 th:text="'Значення інтервалу: ' + ${result}"></h2>
+  <h2 th:text="'Час виконання: ' + ${time}"></h2>
+</div>
+</body>
+</html>
